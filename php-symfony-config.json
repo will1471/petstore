@@ -1,0 +1,10 @@
+{
+    "invokerPackage": "Will1471\\PetStoreServerGenBundle",
+    "gitUserId": "will1471",
+    "composerVendorName": "will1471",
+    "gitRepoId": "PetStoreServerGenBundle",
+    "composerProjectName": "PetStoreServerGenBundle",
+    "packagePath": ".",
+    "bundleName": "PetStoreServerGenBundle",
+    "variableNamingConvention": "camelCase"
+}

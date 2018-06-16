@@ -1,0 +1,23 @@
+{
+    "name": "will1471/petstoreBundle",
+    "license": "proprietary",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Will1471\\PetStoreBundle\\": "."
+        }
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "will1471/petstoreServerGenBundle": "*",
+        "symfony/framework-bundle": "^2.3|^3.0"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./../will1471-petstoreServerGenBundle"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}

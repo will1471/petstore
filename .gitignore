@@ -1,0 +1,8 @@
+will1471-petstoreServer/
+will1471-petstoreServerGenBundle/
+.idea/
+symfony
+openapi-generator-cli.jar
+openapi3/
+will1471-petstoreBundle/vendor
+will1471-petstoreBundle/composer.lock

@@ -1,0 +1,15 @@
+services:
+    will1471.pet_store_bundle.api.pet:
+        class: Will1471\PetStoreBundle\Api\PetApi
+        tags:
+            - { name: "pet_store_server_gen_bundle.api", api: "pet" }
+
+    will1471.pet_store_bundle.api.store:
+        class: Will1471\PetStoreBundle\Api\StoreApi
+        tags:
+            - { name: "pet_store_server_gen_bundle.api", api: "store" }
+
+    will1471.pet_store_bundle.api.user:
+        class: Will1471\PetStoreBundle\Api\UserApi
+        tags:
+            - { name: "pet_store_server_gen_bundle.api", api: "user" }
